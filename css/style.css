@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+h2,
+h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 20px 0 5px;
+}
+
+nav {
+  width: 45px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(239, 239, 239, 0.5);
+}
+
+main {
+  margin-left: 45px;
+  display: flex;
+  background-image: url("../image/4.jpg");
+  background-size: 100% 100%;
+
+}
+
+.song-part {
+  /* background-color: rgb(161, 250, 113); */
+
+  height: 100vh;
+  width: 56%;
+}
+
+.video-container {
+  margin: 0 auto;
+  box-shadow: -5px 5px 10px rgba(255, 255, 255, .8), 3px -3px 8px rgba(255, 255, 255, 0.4);
+  width: 84%;
+  border: solid 2px rgba(255, 255, 255, .8);
+  padding: 2px;
+  border-radius: 15px;
+
+
+
+}
+
+video {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.lyrics-part {
+  /* background-color: rgb(161, 250, 113); */
+  height: 88vh;
+  width: 25%;
+  margin-top: 36px;
+  margin-left: 15%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, .8), -3px -3px 8px rgba(255, 255, 255, 0.4);
+
+}
+
+.lyrics {
+
+  height: 74%;
+  width: 95%;
+  margin: 18px auto;
+  overflow-y: auto;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2.2;
+  letter-spacing: 1px;
+  color: rgb(234, 234, 234);
+  /* text-shadow: 1px 1px 2px rgb(92, 193, 255); */
+}
