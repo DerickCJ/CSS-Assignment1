@@ -6,14 +6,32 @@
 
 }
 
-h2,
-h3 {
-  color: rgb(255, 255, 255);
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  color: rgba(0, 255, 170, .8);
   text-align: center;
   margin: 20px 0 5px;
+  text-shadow: -3px 3px 10px rgba(0, 0, 0, 0.8),
+    3px -3px 10px rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+  font-family: "Abril Fatface", serif;
+  color: rgba(0, 255, 170, .8);
+  font-size: 2.5vw;
+  text-align: end;
+  margin: 35px 0;
+  letter-spacing: 5px;
+  text-shadow: -3px 3px 10px rgba(0, 0, 0, 0.8),
+    3px -3px 10px rgba(0, 0, 0, 0.8);
 }
 
 nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   width: 45px;
   height: 100vh;
   position: fixed;
@@ -76,11 +94,18 @@ video {
 }
 
 p {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 2.2;
   letter-spacing: 1px;
-  color: rgb(234, 234, 234);
-  /* text-shadow: 1px 1px 2px rgb(92, 193, 255); */
+  color: rgba(0, 255, 170, .8);
+  text-shadow: -3px 3px 10px rgba(0, 0, 0, 0.8),
+    3px -3px 10px rgba(0, 0, 0, 0.8);
+
+}
+
+img {
+  width: 20px;
+  height: 20px;
 }
